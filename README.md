@@ -7,9 +7,6 @@ This application helps users create, manage, update, delete, and track their dai
 
 View Live Demo:- https://task-management-app-six-lyart.vercel.app/
 
-> Replace the above link with your actual deployed project URL.
-
-
 ## ✨ Features
 
 - ➕ Add new tasks
