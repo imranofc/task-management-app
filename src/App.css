@@ -1,16 +1,15 @@
 .app {
     width: 510px;
-    margin: 40px auto;
+    height: 90vh;
+    margin: 20px auto;
     padding: 20px;
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-}
-
-.app h1 {
-    text-align: center;
-    margin-bottom: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 @media (max-width: 530px){

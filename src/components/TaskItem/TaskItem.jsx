@@ -42,6 +42,7 @@ function TaskItem({ task }) {
           className="edit-input"
           type="text"
           value={updatedTask}
+          maxLength={25}
           onChange={(e) => setUpdatedTask(e.target.value)}
         />
       ) : (
