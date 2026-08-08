@@ -52,10 +52,10 @@ function TaskItem({ task }) {
         {isEditing ? (
           <button onClick={handleEdit}>Save</button>
         ) : (
-          <button onClick={() => setIsEditing(true)}>Edit</button>
+          <button className="editBtn" onClick={() => setIsEditing(true)}>Edit</button>
         )}
 
-        <button onClick={() => setShowModal(true)}>Delete</button>
+        <button className="deleteBtn" onClick={() => setShowModal(true)}>Delete</button>
       </div>
       <ConfirmModal
     isOpen={showModal}

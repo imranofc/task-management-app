@@ -24,6 +24,7 @@ function TaskInput() {
         type="text"
         placeholder="Enter a task..."
         value={task}
+        maxLength={25}
         onChange={(e) => setTask(e.target.value)}
       />
 

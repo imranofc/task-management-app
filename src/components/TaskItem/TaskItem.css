@@ -43,6 +43,20 @@
     transition: 0.3s;
 }
 
-.task-buttons button:hover {
-    opacity: 0.8;
+.editBtn{
+    background-color: #667eea;
+    color: #fff;
+}
+
+.deleteBtn{
+    color: #fff;
+    background-color: rgb(238, 25, 25);
+}
+
+.deleteBtn:hover{
+    background-color: rgb(216, 26, 26);
+}
+
+.editBtn:hover{
+    background:#4f5fd6;
 }
